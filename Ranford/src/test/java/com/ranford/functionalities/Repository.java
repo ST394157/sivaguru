@@ -114,7 +114,7 @@ public class Repository extends Base{
 		GenericPage.dropDownSelection(driver, getlocator("branch_state")).selectByValue(read_testdata("state"));
 		GenericPage.dropDownSelection(driver, getlocator("branch_city")).selectByValue(read_testdata("city"));
 		BranchesPage.cancel_btn(driver).click();
-		
+		System.out.println("hi");
 	}
 	
 	
